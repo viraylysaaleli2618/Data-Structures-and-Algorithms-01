@@ -1,5 +1,3 @@
-# Data-Structures-and-Algorithms-01
-FOR LOOP, WHILE LOOP, AND DO-WHILE LOOP 
 #include <iostream>
 using namespace std;
 
@@ -24,3 +22,46 @@ int main() {
 
     return 0;
 }
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num;
+    int sum = 0;
+
+    cout << "Enter a number (0 to stop): ";
+    cin >> num;
+
+    while (num != 0) {  // loop runs until user enters 0
+        if (num > 0) {
+            sum += num;  // add only positive numbers
+        }
+        cout << "Enter a number (0 to stop): ";
+        cin >> num;
+    }
+
+    cout << "Sum of positive numbers: " << sum << endl;
+
+    return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int product = 1;
+    int i = 1;
+
+    while (i <= 5) {
+        product *= i;  // multiply product by i
+        i++;
+    }
+
+    cout << "Product of numbers from 1 to 5 is: " << product << endl;
+
+    return 0;
+}
+
