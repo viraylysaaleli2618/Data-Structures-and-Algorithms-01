@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Directly using the given details
+    string fullName = "LYSA ALELI A. VIRAY";
+    string courseYrSec = "IT2J";
+    string birthday = "MAY 26, 2004";
+    string motto = "\"La Vie continue\" it means life goes on.";
+
+    // Output
+    cout << "Hi! I'm " << fullName << " of " << courseYrSec 
+         << ". Welcome to Data Structures and Algorithm!" << endl;
+    cout << "My Birthday is on " << birthday 
+         << ". and my motto/motivation in life is " << motto << endl;
+
+    return 0;
+}
